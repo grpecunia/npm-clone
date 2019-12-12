@@ -1,0 +1,244 @@
+/*************************************/
+/* Navigation Bar */
+/*************************************/
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 20px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 5px;
+  
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+    display: inline;
+
+}
+
+/*************************************/
+/* Header */
+/*************************************/
+
+header {
+    background-image: url(images/city-scape.svg);
+    background-size: cover;
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+}
+
+header input {
+    background: rgb(31, 82, 111);
+    
+}
+
+.search {
+    height: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.search img {
+    padding-left: 10px;
+    height: inherit;
+}
+
+
+ul.top {
+    float: right;
+    padding-right: 10px;
+    display:inline-block;
+    height: inherit;
+}
+
+li.top{
+    float: right;
+}
+
+header .main {
+    align-content: center;
+    width: 600px;
+    padding-top: 100px;
+    padding-right: 50%;
+    padding-left: 25px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: white;
+    font-weight: 100;
+}
+
+
+/**********************************************************************************************/
+/* Section = intro 1st (after header) - npm Orgs is powerful collaboration - for free */
+/*********************************************************************************************/
+
+#intro {
+    background-color: rgb(39, 53, 71);
+    padding-top: 30px;
+    color: white;
+    width:  100%;
+    height: 300px;
+} 
+
+#intro .introduction img {
+    padding-left: 45%;
+    width: inherit;
+    margin: 0 auto;
+}
+
+#intro .intro-block-img{
+    width: 50%;
+    padding-top: 25px;
+    float: left;
+    background-color: rgb(39, 53, 71);
+}
+
+#intro .intro-block {
+    width: 40%;
+    float: right;
+    padding-right: 10%;
+    height: inherit;
+    background-color: rgb(39, 53, 71);
+}
+
+#intro ul {
+    line-height:200%
+}
+
+
+/*******************************************************************************************/
+/* Section = mid 2nd (after header) - What is npm? *****>>>>  95% DONE? */
+/*******************************************************************************************/
+
+#mid {
+    background-image: url(images/forklift.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+#mid p, h2 {
+    color: white;
+    font-weight: 100;
+}
+
+#mid .second {
+    align-content: center;
+    width: 400px;
+    padding-top: 100px;
+    padding-right: 50%;
+    padding-left: 25px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+/************************************************************************************************/
+/* Section = end 3rd (after header) - What can you make with 475k blocks? *****>>>>  95% DONE? */
+/***********************************************************************************************/
+
+#end {
+    background-color: white;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(135, 145, 156);
+}
+
+#end h2, h3 {
+    text-align: center;
+    color: rgb(83, 88, 98);
+    font-weight: 100;
+
+}
+
+#threeitems .blocks {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 25%;
+    margin-left: 5%;
+    float: left;
+}
+
+#threeitems a {
+    color:rgb(208, 74, 73);
+}
+
+/*************************************/
+/* Heading Fonts */
+/*************************************/
+
+#intro h2 {
+    font-weight: lighter;
+}
+
+
+/*************************************/
+/* Buttons */
+/*************************************/
+
+button.signupNpm {
+  background: rgb(240, 146, 51);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+button.signupOrg {
+  background: rgb(203, 56, 55);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+button.install {
+  background: rgb(49, 68, 88);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+/*************************************/
+/* BODY - css */
+/*************************************/
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+body h1, h2, h3 {
+    font-weight: normal;
+}
